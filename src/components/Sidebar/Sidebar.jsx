@@ -1,16 +1,13 @@
 import React from "react";
-import "./Sidebar.css";
+import "./Sidebar.css"; // Importe o CSS do Sidebar (se necessário)
 
 function Sidebar() {
-  return (
-    <aside>
-      <h3>Minhas Redes</h3>
-      <ul>
-        <li><a href="https://github.com/seu-usuario" target="_blank">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a></li>
-      </ul>
-    </aside>
-  );
+    return (
+        <aside>
+            {/* Adicione o conteúdo do Sidebar aqui */}
+            <p>Barra lateral do site.</p>
+        </aside>
+    );
 }
 
 export default Sidebar;

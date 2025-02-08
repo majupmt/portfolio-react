@@ -1,15 +1,13 @@
 import React from "react";
-import "./Main.css";
+import "./Main.css"; // Importe o CSS do Main (se necessário)
 
 function Main() {
-  return (
-    <main>
-      <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por tecnologia...</p>
-      </section>
-    </main>
-  );
+    return (
+        <main>
+            {/* Adicione o conteúdo do Main aqui */}
+            <p>Conteúdo principal do site.</p>
+        </main>
+    );
 }
 
 export default Main;
